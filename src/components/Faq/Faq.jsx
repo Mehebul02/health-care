@@ -1,5 +1,7 @@
 import Accordion from "./Accordion";
 import bg from '../../assets/images/Rectangle 32.png'
+import logo from '../../assets/images/logo light.png'
+import { MdArrowOutward } from "react-icons/md";
 const Faq = () => {
   return (
     <div className="lg:my-24">
@@ -25,12 +27,21 @@ const Faq = () => {
         <Accordion />
       </div>
       {/* bg img  */}
-      <div className=" flex bg-gradient-to-r from-cyan-500 to-blue-500 flex-col lg:flex-row justify-between items-center gap-4" style={{ backgroundImage: `url(${bg})`,backgroundRepeat: 'no-repeat',borderRadius:'10px',  backgroundSize: 'cover',   width:'100%', height:'60vh'}}>
-       <div >
-         text content 
+      <div className="p-10 flex bg-gradient-to-r from-cyan-500 to-blue-500 flex-col lg:flex-row justify-between  gap-4 my-10" style={{ backgroundImage: `url(${bg})`,backgroundRepeat: 'no-repeat',borderRadius:'10px',  backgroundSize: 'cover',   width:'100%', height:'60vh'}}>
+       <div className="space-y-6" >
+        <h1 className=" text-4xl text-[#020043] font-bold ">Get Your <br />
+First Appointment <br />
+at 50% Off!</h1>
+<div className="flex gap-4">
+<button className="lg:text-xl  text-[#000000] bg-[#FFC637] font-inter font-semibold border  px-3 lg:px-6 py-1 lg:py-3 rounded-xl flex items-center">
+              Appointment <MdArrowOutward />{" "}
+              </button>
+<button className="lg:text-xl  text-[#343268] font-inter font-semibold border border-[#343268] px-3 lg:px-6 py-1 lg:py-3 rounded-xl flex items-center">Learn More <MdArrowOutward /> </button>
+
+</div>
        </div>
        <div>
-         text content 
+        <img src={logo} alt="" />
        </div>
 
       </div>
