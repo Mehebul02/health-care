@@ -1,8 +1,8 @@
 #root {
-  max-width: 1300px;
+  /* max-width: 1300px; */
   /* background-color: #C1D5DE; */
-  margin: 0 auto;
-  padding: 2rem;
+  
+  /* padding: 2rem; */
   
   background-image: url(assets/images/Group\ \(1\).png);
 }

@@ -14,7 +14,7 @@ function App() {
  
   return (
     <>
-    <div className=''>
+    <div className='max-w-[1300px] mx-auto'>
     <Navbar/>
     <Banner/>
    <HelpSection/>
@@ -22,8 +22,8 @@ function App() {
    <OnlineDoctor/>
    <Testimonial/>
    <Faq/>
-   <Footer/>
     </div>
+   <Footer/>
     </>
   )
 }
