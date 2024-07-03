@@ -1,9 +1,9 @@
 #root {
   max-width: 1300px;
-  background-color: #C1D5DE;
+  /* background-color: #C1D5DE; */
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  
   background-image: url(assets/images/Group\ \(1\).png);
 }
 
