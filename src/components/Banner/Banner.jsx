@@ -26,7 +26,7 @@ const Banner = () => {
           </div>
           {/* 2nd card  */}
           <div className=" mx-auto space-y-9 ">
-            <h1 className="text-2xl lg:text-4xl text-[#020043] font-inter font-bold">
+            <h1 className="text-2xl text-center lg:text-4xl text-[#020043] font-inter font-bold">
               Comprehensive Care <br /> for Every Patient
             </h1>
             <div className="flex flex-col lg:flex-row gap-6  space-x-10">
