@@ -12,7 +12,7 @@ const HelpSection = () => {
             <h1 className=" text-3xl text-[#343268] font-bold">
               We Help To Get Soultions
             </h1>
-            <p className="w-[600px] text-[#343268]  font-inter">
+            <p className="lg:w-[600px] text-[#343268]  font-inter">
               We are proud to be a trusted healthcare provider in our community,
               and we look forward to serving you and your family with
               excellence, integrity, and compassion. Your health is our
@@ -25,15 +25,15 @@ const HelpSection = () => {
               Learn more <MdArrowOutward />{" "}
             </button>
           </div>
-          <div className="relative border w-1/2 p-10 ">
-            <img className="w-[500px] mx-auto" src={doctorImg} alt="" />
-            <div className="w-80 px-10 py-6 absolute  bottom-0 bg-[#343268] space-y-4 rounded-xl">
-              <h1 className="text-2xl text-white font-inter font-semibold">Our mission is simple</h1>
+          <div className="relative lg:w-1/2 p-10 ">
+            <img className="  lg:w-[500px] mx-auto" src={doctorImg} alt="" />
+            <span className="lg:w-80 px-10 py-6 absolute  lg:bottom-0 bg-[#343268] space-y-4 rounded-xl">
+              <h1 className="lg:text-2xl text-white font-inter font-semibold">Our mission is simple</h1>
               <p className="font-inter text-white">
                 To provide high-quality healthcare services that are accessible,
                 personalized, and patient-centered.
               </p>
-            </div>
+            </span>
           </div>
         </div>
       </div>

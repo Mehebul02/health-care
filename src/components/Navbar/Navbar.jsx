@@ -1,5 +1,6 @@
 import logo from '../../assets/images/logo dark.png'
 import bg from '../../assets/images/Group (1).png'
+import { MdArrowOutward } from 'react-icons/md';
 const Navbar = () => {
 const navItem = <>
 <li className='text-xl font-inter '><a>Home</a></li>
@@ -41,7 +42,7 @@ const navItem = <>
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="lg:text-xl  text-[#343268] font-inter font-semibold border border-[#343268] px-3 lg:px-6 py-1 lg:py-3 rounded-xl">Appointment</button>
+    <button className="lg:text-xl  text-[#343268] font-inter font-semibold border border-[#343268] px-3 lg:px-6 py-1 lg:py-3 rounded-xl flex items-center">Appointment <MdArrowOutward /> </button>
   </div>
 </div>
         </div>

@@ -1,5 +1,6 @@
 
 import './App.css'
+import Appointment from './components/Appointment/Appointment'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import HelpSection from './components/helpsection/HelpSection'
@@ -13,6 +14,7 @@ function App() {
     <Navbar/>
     <Banner/>
    <HelpSection/>
+   <Appointment/>
     </div>
     </>
   )
