@@ -3,7 +3,7 @@ import appointment from '../../assets/images/Rectangle 27-2.png'
 const Appointment = () => {
     return (
         <div>
-        <div className="lg:mt-28">
+        <div className="mt-28 lg:mt-28">
           <div className="flex flex-col lg:flex-row justify-between ">
             <div className=" space-y-5">
               <button className="lg:text-xl  text-[#343268] font-inter font-semibold border border-[#343268] px-3 lg:px-6 py-1 lg:py-3 rounded-xl">
