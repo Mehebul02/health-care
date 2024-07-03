@@ -2,6 +2,8 @@ import banner from '../../assets/images/Rectangle 5.png'
 import bg from '../../assets/images/Group (1).png'
 import group12 from '../../assets/images/Group 12.png'
 import video from '../../assets/images/video.png'
+import contract from '../../assets/images/contract (1) 1.png'
+import { FaStar } from 'react-icons/fa'
 const Banner = () => {
     return (
        <div style={{ backgroundImage: `url(${bg})` }}>
@@ -13,21 +15,56 @@ const Banner = () => {
                 <div className=' '>
                     <div className='w-52 bg-slate-100 p-6 rounded-lg space-y-3'>
                         <h1 className='text-3xl text-[#020043] font-inter font-semibold '>90%</h1>
-                        <p>Patient satisfaction rate, reflecting our commitment.</p>
+                        <p className='font-inter'>Patient satisfaction rate, reflecting our commitment.</p>
                         <img src={group12} alt="" />
                     </div>
                 </div>
                 {/* 2nd card  */}
-                <div className='w-1/2 mx-auto'>
+                <div className='w-1/2 mx-auto space-y-9'>
                    <h1 className='text-4xl text-[#020043] font-inter font-bold'>Comprehensive Care <br /> for Every Patient</h1>
-               vdvgdfsgvdf sdfgsdfgvsdgvd
+             <div className='flex  gap-5'>
+                {/* 500+ */}
+             <div className='p-6 h-48 bg-slate-100  rounded-lg space-y-2'>
+                        <h1 className='text-3xl text-[#020043] font-inter font-semibold '>500+</h1>
+                        <p className='font-inter'>Board-certified <br />doctors</p>
+                        <img className='w-10' src={contract} alt="" />
+                    </div>
+                {/* 500+ */}
+             <div className='p-6 h-48 bg-slate-100  rounded-lg space-y-2'>
+                        <h1 className='text-3xl text-[#020043] font-inter font-semibold flex gap-2'>4.8 <span><FaStar className='text-yellow-500'/></span></h1>
+                        <p className='font-inter'>Over 20,000 Patient</p>
+                        <div className="avatar-group -space-x-6 rtl:space-x-reverse">
+  <div className="avatar">
+    <div className="w-8">
+      <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+    </div>
+  </div>
+  <div className="avatar">
+    <div className="w-8">
+      <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+    </div>
+  </div>
+  <div className="avatar">
+    <div className="w-8">
+      <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+    </div>
+  </div>
+  <div className="avatar">
+    <div className="w-8">
+      <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+    </div>
+  </div>
+</div>
+                    </div>
+                
+             </div>
                 </div>
                 {/* 3rd card  */}
                 <div className=' mx-auto'>
                 <div className='w-52 bg-slate-100 p-6 rounded-lg space-y-3'>
                         <h1 className='text-3xl text-[#020043] font-inter font-semibold '>50+</h1>
-                        <p>Patient satisfaction rate, reflecting our commitment.</p>
-                        <img src={video} alt="" />
+                        <p className='font-inter'>Patient satisfaction rate, reflecting our commitment.</p>
+                        <img className='' src={video} alt="" />
                     </div>
                 </div>
 
