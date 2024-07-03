@@ -4,6 +4,7 @@ import Appointment from './components/Appointment/Appointment'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import HelpSection from './components/helpsection/HelpSection'
+import OnlineDoctor from './components/onlineDoctor/OnlineDoctor'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Banner/>
    <HelpSection/>
    <Appointment/>
+   <OnlineDoctor/>
     </div>
     </>
   )
